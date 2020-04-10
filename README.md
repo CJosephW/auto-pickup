@@ -5,7 +5,7 @@
 `git clone https://github.com/CJosephW/auto-pickup`
 
 # dependencies:
--Selenium
+- Selenium
 
 # Using Selenium:
 - Choose desired webdriver and add to PATH(In this case I use Mozilla's geckodriver.)
