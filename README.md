@@ -30,4 +30,10 @@ def send(text):
     server.sendmail(auth[0], my_number, text)
 ```
 In this example I use at&t's mobile gateway address
-[Here](https://kb.sandisk.com/app/answers/detail/a_id/17056/~/list-of-mobile-carrier-gateway-addresses) is a link for
+[Here](https://kb.sandisk.com/app/answers/detail/a_id/17056/~/list-of-mobile-carrier-gateway-addresses) is a link for other carrier's gateway addresses
+
+# Finally in auto_pickup.py change the email and password to your own login
+```python
+usr = input('username')
+pas = input('password')
+```
